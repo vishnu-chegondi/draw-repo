@@ -1,54 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2023-11-10T17:20:23.915Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Y7-Rmvm7F49fl4iSl81w" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-14T03:17:27.877Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="q7Qwmz0I8hkmzPVBr1rI" version="22.1.0" type="github">
   <diagram name="Page-1" id="6133507b-19e7-1e82-6fc7-422aa6c4b21f">
-    <mxGraphModel dx="1250" dy="729" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#000000" math="0" shadow="0">
+    <mxGraphModel dx="1242" dy="788" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#000000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="U2zFYgUi0tcEFoiji4VH-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;" edge="1" parent="1" source="im4OXi0jit8Vrxe3bHxa-66" target="U2zFYgUi0tcEFoiji4VH-4">
+        <mxCell id="U2zFYgUi0tcEFoiji4VH-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;" parent="1" source="im4OXi0jit8Vrxe3bHxa-66" target="U2zFYgUi0tcEFoiji4VH-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="im4OXi0jit8Vrxe3bHxa-66" value=".gitlab-ci.yaml" style="ellipse;whiteSpace=wrap;html=1;fillColor=#00FF00;" parent="1" vertex="1">
           <mxGeometry x="106.75" y="191" width="106.25" height="94" as="geometry" />
         </mxCell>
-        <mxCell id="U2zFYgUi0tcEFoiji4VH-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFFFFF;" edge="1" parent="1" source="U2zFYgUi0tcEFoiji4VH-4" target="U2zFYgUi0tcEFoiji4VH-7">
+        <mxCell id="U2zFYgUi0tcEFoiji4VH-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFFFFF;" parent="1" source="U2zFYgUi0tcEFoiji4VH-4" target="U2zFYgUi0tcEFoiji4VH-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="U2zFYgUi0tcEFoiji4VH-4" value=".deploy-trigger.yaml" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B5739D;" vertex="1" parent="1">
+        <mxCell id="U2zFYgUi0tcEFoiji4VH-4" value=".deploy-trigger.yaml" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B5739D;" parent="1" vertex="1">
           <mxGeometry x="267.75" y="191" width="106.25" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="U2zFYgUi0tcEFoiji4VH-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;" edge="1" parent="1" target="U2zFYgUi0tcEFoiji4VH-11">
+        <mxCell id="U2zFYgUi0tcEFoiji4VH-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;" parent="1" target="U2zFYgUi0tcEFoiji4VH-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="150" y="320" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U2zFYgUi0tcEFoiji4VH-6" value="&lt;span style=&quot;background-color: rgb(0, 0, 0);&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;Application Repository&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="U2zFYgUi0tcEFoiji4VH-6" value="&lt;span style=&quot;background-color: rgb(0, 0, 0);&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;Application Repository&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="84" y="289" width="137" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="U2zFYgUi0tcEFoiji4VH-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;" edge="1" parent="1" source="U2zFYgUi0tcEFoiji4VH-7" target="U2zFYgUi0tcEFoiji4VH-16">
+        <mxCell id="U2zFYgUi0tcEFoiji4VH-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;" parent="1" source="U2zFYgUi0tcEFoiji4VH-7" target="U2zFYgUi0tcEFoiji4VH-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="U2zFYgUi0tcEFoiji4VH-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;" edge="1" parent="1" source="U2zFYgUi0tcEFoiji4VH-7" target="U2zFYgUi0tcEFoiji4VH-20">
+        <mxCell id="U2zFYgUi0tcEFoiji4VH-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;" parent="1" source="U2zFYgUi0tcEFoiji4VH-7" target="U2zFYgUi0tcEFoiji4VH-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="U2zFYgUi0tcEFoiji4VH-7" value=".dynamic-env.yml" style="ellipse;whiteSpace=wrap;html=1;fillColor=#9999FF;" vertex="1" parent="1">
+        <mxCell id="U2zFYgUi0tcEFoiji4VH-7" value=".dynamic-env.yml" style="ellipse;whiteSpace=wrap;html=1;fillColor=#9999FF;" parent="1" vertex="1">
           <mxGeometry x="476" y="194.25" width="113.25" height="88.5" as="geometry" />
         </mxCell>
-        <mxCell id="U2zFYgUi0tcEFoiji4VH-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FFFFFF;" edge="1" parent="1" source="U2zFYgUi0tcEFoiji4VH-11" target="U2zFYgUi0tcEFoiji4VH-4">
+        <mxCell id="U2zFYgUi0tcEFoiji4VH-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FFFFFF;" parent="1" source="U2zFYgUi0tcEFoiji4VH-11" target="U2zFYgUi0tcEFoiji4VH-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="U2zFYgUi0tcEFoiji4VH-11" value="Environments.yaml&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EA6B66;" vertex="1" parent="1">
+        <mxCell id="U2zFYgUi0tcEFoiji4VH-11" value="Environments.yaml&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EA6B66;" parent="1" vertex="1">
           <mxGeometry x="89" y="445" width="122.5" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="U2zFYgUi0tcEFoiji4VH-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FFFFFF;" edge="1" parent="1" source="U2zFYgUi0tcEFoiji4VH-16" target="U2zFYgUi0tcEFoiji4VH-20">
+        <mxCell id="U2zFYgUi0tcEFoiji4VH-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FFFFFF;" parent="1" source="U2zFYgUi0tcEFoiji4VH-16" target="U2zFYgUi0tcEFoiji4VH-20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="723.9499999999998" y="242.20000000000005" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U2zFYgUi0tcEFoiji4VH-16" value="Updates the environment.yaml with env variables from conductor and gitlab projects config using python main.py" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#FF8000;" vertex="1" parent="1">
+        <mxCell id="U2zFYgUi0tcEFoiji4VH-16" value="Updates the environment.yaml with env variables from conductor and gitlab projects config using python main.py" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#FF8000;" parent="1" vertex="1">
           <mxGeometry x="401.38" y="445" width="262.5" height="73" as="geometry" />
         </mxCell>
-        <mxCell id="U2zFYgUi0tcEFoiji4VH-20" value="Runs environment.yaml&amp;nbsp; which is passed from application repository" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0066CC;" vertex="1" parent="1">
+        <mxCell id="U2zFYgUi0tcEFoiji4VH-20" value="Runs environment.yaml&amp;nbsp; which is passed from application repository" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0066CC;" parent="1" vertex="1">
           <mxGeometry x="710" y="148.5" width="299" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="4PAnyTfe0ZqNleL2whG9-1" value="&lt;h1&gt;.Gitlab-ci.yaml&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="318" y="588" width="190" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
