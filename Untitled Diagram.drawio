@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-14T03:17:27.877Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="q7Qwmz0I8hkmzPVBr1rI" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-14T03:17:41.169Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="PJrJ_wjZIKUad2q4uvVU" version="22.1.0" type="github">
   <diagram name="Page-1" id="6133507b-19e7-1e82-6fc7-422aa6c4b21f">
     <mxGraphModel dx="1242" dy="788" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#000000" math="0" shadow="0">
       <root>
@@ -49,9 +49,6 @@
         </mxCell>
         <mxCell id="U2zFYgUi0tcEFoiji4VH-20" value="Runs environment.yaml&amp;nbsp; which is passed from application repository" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0066CC;" parent="1" vertex="1">
           <mxGeometry x="710" y="148.5" width="299" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="4PAnyTfe0ZqNleL2whG9-1" value="&lt;h1&gt;.Gitlab-ci.yaml&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="318" y="588" width="190" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
