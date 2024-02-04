@@ -1,9 +1,113 @@
-<mxfile host="app.diagrams.net" modified="2024-02-04T07:15:39.601Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="23.1.1" etag="u1nasI_QwcX1Z9JAvmsq" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-04T12:19:31.665Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="6DGM-N--ARpBmQLW-F2j" version="23.1.1" type="github">
   <diagram name="Page-1" id="fJ23Qn_HebWtonZfwrHM">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="1620" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="800" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="c-ljxplVrE6A_Wo056ZA-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="c-ljxplVrE6A_Wo056ZA-7" target="c-ljxplVrE6A_Wo056ZA-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c-ljxplVrE6A_Wo056ZA-7" value="&lt;font color=&quot;#66ff66&quot; style=&quot;font-size: 24px;&quot;&gt;&lt;b style=&quot;background-color: rgb(0, 0, 0);&quot;&gt;Build&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=#000000;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;perimeterSpacing=11;shadow=0;strokeWidth=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="203" y="65" width="87" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="c-ljxplVrE6A_Wo056ZA-8" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;docker-images&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Filename&lt;/b&gt;: maven/.maven-build.yaml&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Working&lt;/b&gt;: Using maven as base image we run mvn commands to build docker images for given application.&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Directory: &lt;/b&gt;maven commands will be running in application directory&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="126" y="205" width="241" height="218" as="geometry" />
+        </mxCell>
+        <mxCell id="c-ljxplVrE6A_Wo056ZA-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="c-ljxplVrE6A_Wo056ZA-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="519.2999999999997" y="109" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c-ljxplVrE6A_Wo056ZA-10" value="&lt;h1&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;unit-tests&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Filename&lt;/b&gt;: maven/.maven-test.yaml&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Working&lt;/b&gt;: Using maven as base image we run mvn commands to test the given application.&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Directory: &lt;/b&gt;Will be running in application directory&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="399.5" y="201" width="241" height="213" as="geometry" />
+        </mxCell>
+        <mxCell id="c-ljxplVrE6A_Wo056ZA-11" value="&lt;font color=&quot;#66ff66&quot; style=&quot;font-size: 24px;&quot;&gt;&lt;b style=&quot;background-color: rgb(0, 0, 0);&quot;&gt;Test&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=#000000;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;perimeterSpacing=11;shadow=0;strokeWidth=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="476.5" y="65" width="87" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="c-ljxplVrE6A_Wo056ZA-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="c-ljxplVrE6A_Wo056ZA-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="808.2999999999997" y="109" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c-ljxplVrE6A_Wo056ZA-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="c-ljxplVrE6A_Wo056ZA-14" target="c-ljxplVrE6A_Wo056ZA-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c-ljxplVrE6A_Wo056ZA-14" value="&lt;h1&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;metadata&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Filename&lt;/b&gt;: gitlab/.release.yml&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Working&lt;/b&gt;: Create metadata.json and upload in gitlab pipeline packages&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Directory: &lt;/b&gt;Will be running in application directory&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="688.5" y="201" width="241" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="c-ljxplVrE6A_Wo056ZA-15" value="&lt;font color=&quot;#66ff66&quot; style=&quot;font-size: 24px;&quot;&gt;&lt;b style=&quot;background-color: rgb(0, 0, 0);&quot;&gt;release&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=#000000;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;perimeterSpacing=11;shadow=0;strokeWidth=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="765.5" y="65" width="87" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="c-ljxplVrE6A_Wo056ZA-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c-ljxplVrE6A_Wo056ZA-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="809" y="728" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c-ljxplVrE6A_Wo056ZA-17" value="&lt;h1&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;to-conductor&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Filename&lt;/b&gt;: gitlab/.release.yml&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Rules&lt;/b&gt;: Run when it is manual run&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Working&lt;/b&gt;: Create gitlab release for current commit hash.&lt;br&gt;&lt;br&gt;This is manual step which requires manual interaction&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="688.5" y="438" width="241" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="c-ljxplVrE6A_Wo056ZA-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="c-ljxplVrE6A_Wo056ZA-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1098.2999999999997" y="109" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c-ljxplVrE6A_Wo056ZA-19" value="&lt;h1&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;envs&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Filename&lt;/b&gt;: environment/.deploy-trigger.yml&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Working&lt;/b&gt;: Setting environment variable application.&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ff8000&quot;&gt;Triggers Child Job using file .dyanmic-env.yml as a new job&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="978.5" y="201" width="241" height="213" as="geometry" />
+        </mxCell>
+        <mxCell id="c-ljxplVrE6A_Wo056ZA-20" value="&lt;font color=&quot;#66ff66&quot; style=&quot;font-size: 24px;&quot;&gt;&lt;b style=&quot;background-color: rgb(0, 0, 0);&quot;&gt;Deploy&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=#000000;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;perimeterSpacing=11;shadow=0;strokeWidth=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1055.5" y="65" width="87" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="c-ljxplVrE6A_Wo056ZA-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c-ljxplVrE6A_Wo056ZA-22" target="c-ljxplVrE6A_Wo056ZA-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c-ljxplVrE6A_Wo056ZA-22" value="&lt;font color=&quot;#66ff66&quot; style=&quot;font-size: 24px;&quot;&gt;&lt;b style=&quot;background-color: rgb(0, 0, 0);&quot;&gt;Deploy&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=#000000;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;perimeterSpacing=11;shadow=0;strokeWidth=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="193" y="818" width="87" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="c-ljxplVrE6A_Wo056ZA-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="c-ljxplVrE6A_Wo056ZA-24" target="c-ljxplVrE6A_Wo056ZA-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c-ljxplVrE6A_Wo056ZA-24" value="&lt;h1&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Get Environments&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Filename&lt;/b&gt;: environment/.dynamic-env.yml&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;font-size: 14px; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;font-size: 14px; background-color: initial;&quot;&gt;Working&lt;/b&gt;&lt;span style=&quot;font-size: 14px; background-color: initial;&quot;&gt;:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;Copies all metadata.json values as environment values&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Run python script and appends&amp;nbsp; contents of environments.yml with each conductor environments&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Stores the updated environments.yaml file as artifacts of the pipeline job.&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Directory: &lt;/b&gt;Clones dynamic-env repository and runs main.py with inputs as environments file, application and branch name&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="116" y="923" width="241" height="385" as="geometry" />
+        </mxCell>
+        <mxCell id="c-ljxplVrE6A_Wo056ZA-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="c-ljxplVrE6A_Wo056ZA-26" target="c-ljxplVrE6A_Wo056ZA-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="538" y="1448" />
+              <mxPoint x="538" y="842" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c-ljxplVrE6A_Wo056ZA-26" value="&lt;h1&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Show Environments&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Filename&lt;/b&gt;: environment/.dynamic-env.yml&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Working&lt;/b&gt;:&amp;nbsp; &lt;font color=&quot;#ff8000&quot;&gt;Triiggers the child job with updated environments.yml file&amp;nbsp;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="116" y="1376" width="241" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="c-ljxplVrE6A_Wo056ZA-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c-ljxplVrE6A_Wo056ZA-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="735.5" y="994.3999837239583" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c-ljxplVrE6A_Wo056ZA-28" value="From the below available steps&lt;br&gt;we need to select one &lt;b&gt;Conductor Environment&amp;nbsp;&lt;/b&gt;&lt;br&gt;where we want to deploy the application" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="c-ljxplVrE6A_Wo056ZA-27">
+          <mxGeometry x="-0.0944" relative="1" as="geometry">
+            <mxPoint x="1" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c-ljxplVrE6A_Wo056ZA-29" value="&lt;font color=&quot;#66ff66&quot; style=&quot;font-size: 24px;&quot;&gt;&lt;b style=&quot;background-color: rgb(0, 0, 0);&quot;&gt;Deploy&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=#000000;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;perimeterSpacing=11;shadow=0;strokeWidth=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="692" y="821" width="87" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="c-ljxplVrE6A_Wo056ZA-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c-ljxplVrE6A_Wo056ZA-31" target="c-ljxplVrE6A_Wo056ZA-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c-ljxplVrE6A_Wo056ZA-31" value="&lt;h1&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;nonprod-flux/{Billing-000}&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Filename&lt;/b&gt;: artifacts/environments.yml&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;Extends:&lt;/b&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a style=&quot;border-color: var(--border-color);&quot; href=&quot;https://gitlab.natera.com/platform/gitlab-templates/-/blob/main/helm/.helm-deploy.yml?ref_type=heads&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;https://gitlab.natera.com/platform/gitlab-templates/-/blob/main/flux/.create-applications.yml?ref_type=heads&lt;/font&gt;&lt;/a&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Working&lt;/b&gt;:&amp;nbsp; &lt;br&gt;&lt;ul&gt;&lt;li&gt;Connects to Kubernetes clusters&lt;br&gt;&lt;/li&gt;&lt;li&gt;Checks if namespace exists else create namespace&lt;br&gt;&lt;/li&gt;&lt;li&gt;Clone flux-bootstrap repo&lt;/li&gt;&lt;li&gt;run python3 main.py passing application name, cluster name and values file&lt;/li&gt;&lt;li&gt;script creates application kustomization in flux-bootstrap&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="615" y="993" width="295" height="369" as="geometry" />
+        </mxCell>
+        <mxCell id="c-ljxplVrE6A_Wo056ZA-32" value="&lt;h1&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;nonprod-helm/{conductor-env2}&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Filename&lt;/b&gt;: artifacts/environments.yml&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Working&lt;/b&gt;:&amp;nbsp; &lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Depends on the application environments.yml file.&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Sometimes it may be rancher deployment or sometimes it can be helm deployment.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="954" y="980" width="241" height="247" as="geometry" />
+        </mxCell>
+        <mxCell id="c-ljxplVrE6A_Wo056ZA-33" value="&lt;h1&gt;Flux Continous Deployment&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="18" y="-11" width="337" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="c-ljxplVrE6A_Wo056ZA-34" value="&lt;h1&gt;Migration Steps&lt;/h1&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Update .environments.yml file to use .create-applications.yaml to run flux-boostrap python script&lt;/li&gt;&lt;li&gt;Update Application name environment variable in environments.yml in your application repository.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="676" y="1418" width="542" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
